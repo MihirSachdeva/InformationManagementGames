@@ -236,6 +236,11 @@ a {
 .footer-banner{
     display:flex;
     flex-flow:column;
+    align-items: center;
+}
+.footer-poster {
+    width: 90% !important;
+    height: 12em;
 }
 .footer{
     height: 150px;
@@ -415,6 +420,10 @@ a {
     .description-text {
       width: 90vw;}
 
+    .footer-poster {
+        height: 7em;
+    }
+
 }
 
 @media only screen and (max-width:850px){
@@ -541,6 +550,9 @@ a {
     }
     .footer-content{
         height: 70px;
+    }
+    .footer-poster {
+        height: 7em;
     }
 
 }
